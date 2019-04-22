@@ -1,2 +1,5 @@
 # npm package folder
 node_modules
+
+# nextjs temporary folder
+.next
