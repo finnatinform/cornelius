@@ -6,3 +6,32 @@ header {
   /* Position */
   float: left;
 }
+
+.header-item {
+  /* Size */
+  height: var(--size-header);
+
+  /* Position */
+  float: left;
+
+  /* Alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  /* Size */
+  width: var(--size-header);
+
+  /* Font */
+  font-size: 2em;
+
+  /* Cursor */
+  cursor: pointer;
+}
+
+.title {
+  /* Font */
+  font-size: 1.25em;
+}

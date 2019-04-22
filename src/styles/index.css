@@ -3,7 +3,8 @@
 }
 
 html,
-body {
+body,
+#__next {
   /* Size */
   height: 100%;
   width: 100%;
@@ -11,4 +12,8 @@ body {
   /* Spacing */
   margin: 0;
   padding: 0;
+
+  /* Font */
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
 }

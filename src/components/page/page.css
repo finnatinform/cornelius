@@ -6,9 +6,12 @@
 
 .content {
   /* Size */
-  height: calc(100% - var(--size-header));
-  width: 100%;
+  height: calc(100% - var(--size-header) - 2 * 20px);
+  width: calc(100% - 2 * 20px);
 
   /* Position */
   float: left;
+
+  /* Spacing */
+  padding: 20px;
 }

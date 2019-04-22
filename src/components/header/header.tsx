@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import { IoIosMenu } from 'react-icons/io';
 
 export interface IHeaderProps {}
 export interface IHeaderState {}
@@ -9,6 +10,13 @@ export default class Header extends React.Component<
   IHeaderState
 > {
   render() {
-    return <header>Cornelius</header>;
+    return (
+      <header>
+        <div className={'menu header-item'}>
+          <IoIosMenu />
+        </div>
+        <div className={'title header-item'}>Cornelius</div>
+      </header>
+    );
   }
 }
