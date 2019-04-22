@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/finnatinform/cornelius/issues"
   },
-  "homepage": "https://github.com/finnatinform/cornelius#readme"
+  "homepage": "https://github.com/finnatinform/cornelius#readme",
+  "devDependencies": {
+    "typescript": "^3.4.4"
+  }
 }
