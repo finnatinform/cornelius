@@ -1,0 +1,15 @@
+{
+  "name": "cornelius",
+  "version": "1.0.0",
+  "description": "Make presentations with react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnatinform/cornelius.git"
+  },
+  "keywords": [],
+  "author": "Finn Zentgraf",
+  "bugs": {
+    "url": "https://github.com/finnatinform/cornelius/issues"
+  },
+  "homepage": "https://github.com/finnatinform/cornelius#readme"
+}
