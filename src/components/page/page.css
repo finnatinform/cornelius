@@ -1,0 +1,14 @@
+.page {
+  /* Size */
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  /* Size */
+  height: calc(100% - var(--size-header));
+  width: 100%;
+
+  /* Position */
+  float: left;
+}

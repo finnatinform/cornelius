@@ -1,3 +1,7 @@
+:root {
+  --size-header: 60px;
+}
+
 html,
 body {
   /* Size */
